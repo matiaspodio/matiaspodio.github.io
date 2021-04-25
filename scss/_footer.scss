@@ -1,0 +1,54 @@
+footer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    bottom: -200px;
+    max-width: 900px;
+    width: 100vw;
+    height: 80px;
+    background-color: #FFFFFF;
+}
+
+footer h4 {
+    margin: auto;
+    font-family: $secondary-font;
+    font-size: $size-parrafo;
+    color: $color-titulo;
+    line-height: 22px;
+}
+
+div.contacto {
+    width: 70.9vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div.contacto a i {
+    color: $color-titulo;
+}
+
+@media screen and (min-width: 901px) {
+    footer {
+        max-width: 1440px;
+        width: 100vw;
+        height: 100px;
+        bottom: -220px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+        
+    }
+
+    footer h4 {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    div.contacto {
+        width: 20vw;
+        
+    }
+
+
+}

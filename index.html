@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pale Blue Dot</title>
+    <link rel="stylesheet" href="./scss/style.css">
+    <script src="https://kit.fontawesome.com/f4858135ec.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;500&family=IBM+Plex+Sans:wght@400;600&display=swap');
+    </style>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="./img/logo.svg" alt="logo">
+        <input type="checkbox" id="burger-menu">
+        <label class="menu-hamb" for="burger-menu">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="cross-menu" for="burger-menu">
+            <i class="fas fa-times"></i>
+        </label>
+        <nav class="menu">
+            <ul>
+                <li><a class="link" href="#episodios">EPISODIOS</a></li>
+                <li><a class="link" href="#nosotros">NOSOTROS</a></li>
+                <li><a class="link" href="#entrevistas">ENTREVISTAS</a></li>
+                <li><a class="link" href="#topicos">TÓPICOS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- comienza el main -->
+    <main>
+        <div class="contenedorh1">
+            <h1>Hello <span class="worlddashed">world</span> pale blue dot<span class="bluedot">.</span></h1>
+        </div>
+        <div class="contenedorp1">
+            <p>Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.</p>
+        </div>
+        <div class="contenedorp1-2">
+            <p>El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos
+                los jueves cada 15 días.</p>
+        </div>
+        <div class="button">
+            <a target="_blank" rel="noopener noreferrer"
+                href="https://open.spotify.com/show/2ySVrxGkN6n6frMTo9Nsrt">CONOCÉ MÁS</a>
+        </div>
+        <div class="contenedorepisodios">
+            <h2 id="episodios" class="episodios">Episodios</h2>
+            <div class="iframe">
+                <iframe src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
+        </div>
+        <div class="phonenosotros">
+            <div class="contenedorphone">
+                <img class="phone" src="./img/phone.png" alt="telefono-con-foto-de-mujer-programando">
+            </div>
+            <div class="dedondevenimos">
+                <h2 id="nosotros">De dónde venimos</h2>
+                <div class="contenedorp2">
+                    <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position
+                        in the
+                        Universe, are challenged by this point of pale light.
+                        <br><br>
+                        Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this
+                        vastness, there is no hint that help will come from elsewhere to save us from ourselves.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="contenedorinvitados">
+            <h2 id="entrevistas">Invitadas/os estelares</h2>
+        </div>
+        <div class="contenedorimginvitados">
+            <img src="./img/grace-hopper.png" alt="grace-hopper">
+            <img src="./img/Katie-Bouman.png" alt="Katie-Bouman">
+            <img src="./img/Margaret_Hamilton.png" alt="Margaret_Hamilton">
+            <img src="./img/An-E.R.A.Univac-1103-computer-in-the-1950s.png"
+                alt="mujeres-trabajando-con-computadoras-años-50">
+            <img src="./img/Computer-operators-with-an-Eniac-—-the-world’s-first-programmable-general-purpose-computer.png"
+                alt="mujeres-trabajando-con-computadoras-años-50">
+            <img src="./img/susan-kare.png" alt="susan-kare">
+        </div>
+        <div class="contenedortema">
+            <h2 id="topicos">Algunos de nuestros temas</h2>
+        </div>
+        <div class="temas">
+            <div class="tema tema1">
+                <img src="./img/icon1.svg" alt="tres-hojas-y-felchas">
+                <h3>Trabajo remoto</h3>
+            </div>
+            <div class="tema tema2">
+                <img src="./img/icon2.svg" alt="cabeza-de-persona">
+                <h3>Repensando la programación</h3>
+            </div>
+            <div class="tema tema3">
+                <img src="./img/icon3.svg" alt="computadora">
+                <h3>Bases del código</h3>
+            </div>
+            <div class="tema tema4">
+                <img src="./img/icon4.svg" alt="base-de-datos-segura">
+                <h3>Seguridad informática</h3>
+            </div>
+        </div>
+        <div class="contenedornovedades">
+            <div class="novedades">
+                <h2 class="">¿Querés las últimas novedades?</h2>
+            </div>
+            <div class="button btn2">
+                <a href="#episodios">ESCUCHÁ LOS EPISODIOS</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h4>© 2019— Hello blue pale dot</h4>
+        <div class="contacto">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.spotify.com/"><i
+                    class="fab fa-spotify"></i></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/"><i
+                    class="fab fa-instagram-square"></i></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/"><i
+                    class="fab fa-facebook"></i></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://web.telegram.org/"><i
+                    class="fab fa-telegram-plane"></i></a>
+        </div>
+    </footer>
+</body>
+
+</html>
