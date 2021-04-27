@@ -260,9 +260,11 @@ div.iframe {
 }
 
 iframe {
-  width: 90vw;
-  height: 225px;
+  width: 301px;
+  height: 232px;
   margin: auto;
+  border: 0px;
+  background-color: transparent;
 }
 
 img.phone {
@@ -293,7 +295,6 @@ div.contenedorinvitados {
 
 div.contenedorimginvitados {
   position: relative;
-  width: 100vw;
   top: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
